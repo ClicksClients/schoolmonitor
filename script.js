@@ -152,7 +152,7 @@ const updateWeather = () => {
     let icons = {
         clear: "./assets/sun.svg",
         cloud: "./assets/cloud.svg",
-        thunder: "./assets/thunder.svg",
+        thunder: "./assets/lightning.svg",
         rain: "./assets/rain.svg",
         snow: "./assets/snow.svg"
     }
