@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>School Display</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="grid">
+            <div class="card a">
+                <div class="clockUpper">
+                    <div id="clock">
+                        <img id="clockSize" src="https://dummyimage.com/1x1/000000/fff.png" />
+                        <span id="minutehand"></span>
+                        <span id="hourhand"></span>
+                        <span id="secondhand"></span>
+                    </div>
+                    <div id="time">00:00</div>
+                </div>
+                <div id="date">Loading</div>
+            </div>
+            <div class="card b">
+                <div>
+                    <div class="weatherIcon"></div>
+                    <div class="weatherRight">
+                        <div class="weather" id="condition"></div>
+                        <div class="sub" id="subtext">Loading</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card c">
+                <div id="week" class="title">Week ?</div>
+                <div id="period" class="sub">Unknown - Please wait</div>
+            </div>
+            <div class="card d">
+                <div class="shorttitle">Notices</div>
+                <hr>
+                <div id="notices">Loading</div>
+            </div>
+            <div class="card e">
+                <div id="eventdays" class="title">? Days</div><br />
+                <div id="event" class="sub">until unknown event</div>
+            </div>
+            <div class="card f">
+                <div class="shorttitle" id="word"></div>
+                <hr><br />
+                <div class="about" id="type">Loading</div><br />
+                <div class="about" id="definition">Loading</div><br />
+                <div class="about" id="example">Loading</div>
+            </div>
+        </div>
+        <div id="footer">
+            <span class="newsScroll">Loading</span>
+        </div>
+    </body>
+</html>

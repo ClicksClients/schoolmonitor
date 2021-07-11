@@ -1,0 +1,34 @@
+{
+    "week": "B",
+    "nextEvent": [
+        "2021/07/21",
+        "summer holidays"
+    ],
+    "WARNING": [
+        "Notice icons are the lower case names such as 'account_circle' on https://fonts.google.com/icons?selected=Material+Icons"
+    ],
+    "notices": [
+        {
+            "icon": "delete",
+            "description": "Sports day is tomorrow, please remember to wear a PE kit and may the best form win"
+        },
+        {
+            "icon": "calendar_today",
+            "description": "Non-uniform day is next friday, please remember to wear a blazer"
+        },
+        {
+            "icon": "trending_up",
+            "description": "Well done to ST3 for being the highest scoring student in Quizlet"
+        },
+        {
+            "icon": "verified",
+            "description": "Scores aren’t everything! If your mental health is suffering stay safe and reach out to a teacher or other adult you trust"
+        }
+    ],
+    "wotw": {
+        "word": "Hygienic",
+        "type": "Adjective",
+        "definition": "conducive to maintaining health and preventing disease, especially by being clean; sanitary.",
+        "example": "the toilets didn’t have very hygienic conditions"
+    }
+}
