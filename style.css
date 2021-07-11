@@ -1,11 +1,14 @@
 body {
-    background-image: url("https://jimmytechsf.com/wp-content/uploads/2020/06/Big-Sur.jpg");
     backdrop-filter: blur(5px);
     background-color: black;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 html {

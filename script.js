@@ -1,3 +1,5 @@
+document.getElementsByTagName("body")[0].style.backgroundImage = `url('./wallpapers/${Math.floor(Math.random() * 29)}.jpg')`
+
 let config = {}
 
 function setConfig() {
@@ -142,7 +144,6 @@ const updateArticle = () => {
 
 const updateWeather = () => {
     var name = "clear"
-    console.log(weather)
     if (weather.current.condition.text.includes("cloud")) { name = "cloud" }
     else if (weather.current.condition.text.includes("thunder")) { name = "thunder" }
     else if (weather.current.condition.text.includes("rain") || weather.current.condition.text.includes("drizzle")) { name = "rain" }
