@@ -92,7 +92,7 @@ const updatePeriod = () => {
         }
     }
     let t = nextperiod - curtime
-    t *= 6 / 10
+    t *= 10/6
     document.getElementById('period').innerHTML = `${pTimes[nextperiod]} starts in ${Math.round(t)} minutes`
 }
 
@@ -151,7 +151,7 @@ const updateWeather = () => {
 
     let icons = {
         clear: "./assets/sun.svg",
-        cloud: "./assets/cloud.svg",
+        cloud: "./assets/cloudy.svg",
         thunder: "./assets/lightning.svg",
         rain: "./assets/rain.svg",
         snow: "./assets/snow.svg"
