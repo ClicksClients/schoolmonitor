@@ -91,9 +91,11 @@ const updatePeriod = () => {
             break;
         }
     }
-    nextperiod = (parseInt(nextperiod.toString().slice(-2)) + parseInt((nextperiod.toString().slice(0, -2)*60)))
-    curtime = (parseInt(curtime.toString().slice(-2)) + parseInt((curtime.toString().slice(0, -2)*60)))
-    let t = nextperiod - curtime
+    let np = nextperiod.toString()
+    let ct = curtime.toString()
+    np = parseInt(np.slice(-2)) + parseInt(np.slice(0, -2)*60)
+    ct = parseInt(ct.slice(-2)) + parseInt(ct.slice(0, -2)*60)
+    let t = np - ct
     document.getElementById('period').innerHTML = `${pTimes[nextperiod]} starts in ${Math.round(t)} minutes`
 }
 
