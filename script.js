@@ -91,8 +91,9 @@ const updatePeriod = () => {
             break;
         }
     }
+    nextperiod = (nextperiod.slice(-2) + (nextperiod.slice(0, -2)*60))
+    curtime = (curtime.slice(-2) + (curtime.slice(0, -2)*60))
     let t = nextperiod - curtime
-    t *= 10/6
     document.getElementById('period').innerHTML = `${pTimes[nextperiod]} starts in ${Math.round(t)} minutes`
 }
 
