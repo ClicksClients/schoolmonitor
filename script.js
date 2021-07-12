@@ -93,6 +93,7 @@ const updatePeriod = () => {
     }
     let np = nextperiod.toString()
     let ct = curtime.toString()
+    console.log(np, ct)
     np = parseInt(np.slice(-2)) + parseInt(np.slice(0, -2)*60)
     ct = parseInt(ct.slice(-2)) + parseInt(ct.slice(0, -2)*60)
     let t = np - ct
