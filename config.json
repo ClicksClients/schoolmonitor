@@ -9,20 +9,16 @@
     ],
     "notices": [
         {
-            "icon": "delete",
-            "description": "Sports day is tomorrow, please remember to wear a PE kit and may the best form win"
+            "icon": "emoji_events",
+            "description": "Sports day is on the 20th - Don't forget your PE kit"
         },
         {
             "icon": "calendar_today",
             "description": "Non-uniform day is next friday, please remember to wear a blazer"
         },
         {
-            "icon": "trending_up",
-            "description": "Well done to ST3 for being the highest scoring student in Quizlet"
-        },
-        {
-            "icon": "verified",
-            "description": "Scores aren’t everything! If your mental health is suffering stay safe and reach out to a teacher or other adult you trust"
+            "icon": "weekend",
+            "description": "Last day on the 21st!"
         }
     ],
     "wotw": {
